@@ -1,0 +1,11 @@
+# General
+.git
+.gitignore
+README.md
+local.docker-compose.yml
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
