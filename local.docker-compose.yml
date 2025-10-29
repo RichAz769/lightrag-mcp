@@ -4,13 +4,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: lightrag-mcp
+    container_name: lightrag-mcp-v1
     environment:
       LIGHTRAG_BASE_URL: "https://lightrag.revoxwealth.com"
       # LIGHTRAG_API_KEY: "jika-anda-guna-key"
       LIGHTRAG_TIMEOUT: "30"
       LOG_LEVEL: "INFO"
-      PORT: "8010"
+      PORT: "9623"
     ports:
-      - "8010:8010"
+      - "9623:9623"
     restart: unless-stopped
